@@ -27,7 +27,7 @@ public class Summary extends AppCompatActivity {
         email.setType("text/plain");
         email.putExtra(Intent.EXTRA_SUBJECT, "Pizza Order");
         email.putExtra(Intent.EXTRA_TEXT, message);
-        startActivity(Intent.createChooser(email, "Send mail..."));
+        startActivity(Intent.createChooser(email, "Send Order"));
     }
 
 

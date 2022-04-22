@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
             quantity = quantity - 1;
             display(quantity);
         } else {
-            Log.i("MainActivity", "Please select at least one cup of coffee");
+            Log.i("MainActivity", "Please select at least one pizza");
             Context context = getApplicationContext();
             String upperLimitToast = getString(R.string.too_little_coffee);
             int duration = Toast.LENGTH_SHORT;
